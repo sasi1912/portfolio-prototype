@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro &display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+/* .body {
+    height: 150vh;
+} */
+* {
+    margin: 0;
+    border: 0;
+}
+
+.sidebar {
+    background-color: rgb(218, 214, 214);
+    /* width: 434px; */
+    font-family: 'Fira Sans', sans-serif;
+    height: 100%;
+    width: 189px;
+    transition: transform 0.5s ease-in;
+    position: absolute;
+}
+
+.sidebar nav {
+    /* padding: 10px; */
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+.main {
+    /*background-color: rgb(255, 0, 242);*/
+    width: 90vw;
+    /* padding: 25px; */
+}
+
+/* .bg{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-left: 0px;
+} */
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+
+.container {
+    display: flex;
+}
+.infocontainer {
+    /*background-color: brown;*/
+    width: 80vw;
+    height: 58vh;
+    margin: 147px auto;
+    justify-content: space-around;
+    color: white;
+}
+.devinfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 3em;
+}
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.about {
+    font-size: 2.5em;
+}
+
+.moreabout {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2em;
+    margin-top: 20px;
+}
+.buttons {
+    margin-top: 40px;
+    font-size: 16px;
+}
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 2px 3px;
+    cursor: pointer;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+.devpic {
+    height: 100%;
+    display: flex;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-left: 22px;
+    margin-top: 15px;
+}
+.cross{
+    margin-left: 139px;
+}
+
+/* footer styling  */
+
+#footer{
+    background-color: #ffffff73;
+    width: 100vw;
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    color: aliceblue;
+    font-size: 1.5em;
+    text-decoration: none;
+    border: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    list-style: none;
+    float: left;
+}
+
+.col{
+    text-decoration: none;
+
+}
+
+/*contact form styling*/
+
+/* .contactform {
+    font-family: 'Fira Sans', sans-serif;
+    padding-top: 144px;
+    padding-left: 232px;
+}
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    padding-bottom: 40px;
+}
+
+.contactform form div{
+    padding: 10px 0;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.form-control{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 6px;
+    width: 50vh;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-btn-primary{
+    padding: 7px 43px;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.footer{
+    width: 100vw;
+    height: 200px;
+}
+
+.footer a{
+    text-decoration: none;
+} */
+/*introstyling*/
+.intro{
+    padding-left: 232px;
+    font-size: 1.75em;
+    color: white;
+    padding-top: 40px;
+    
+}
+.box{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    text-align: center;
+    height: fit-content;
+    font-size: 0.75rem;
+    text-align: center;
+    margin-left: 480px;
+}
+
+.html{
+    padding: 10px 20px;
+    width: 2vw;
+    background-color: cornflowerblue;
+    height: 45.5vh;
+    margin-top: 19.5vh;
+}
+.css{
+    padding: 10px 20px;
+    width: 2vw;
+    background-color: cornflowerblue;
+    height: 58.5vh;
+    margin-top: 6.5vh;
+}
+.js{
+    padding: 10px 20px;
+    width: 2vw;
+    background-color: cornflowerblue;
+    height: 32.5vh;
+    margin-top: 32.5vh;
+}
+.python{
+    padding: 10px 20px;
+    width: 2vw;
+    background-color: cornflowerblue;
+    height: 39vh;
+    margin-top: 26vh;
+    display: flex;
+}
+.sql{
+    padding: 10px 20px;
+    width: 2vw;
+    background-color: cornflowerblue;
+    height: 16.25vh;
+    margin-top: 48.75vh;
+}
+
+
+@media all and (max-width: 1100px) {
+    /* *{
+    background-color:red;
+  }  */
+  .devpic{
+      display: none;
+  } 
+  .devinfo{
+      font-size: 10px;
+  }
+  .buttons{
+      font-size: 5px;
+      margin-top: 16px;
+  }
+  .intro{
+      /* padding: 50px 8px; */
+      text-align: center;
+      display: flexbox;
+      padding-left: 50px;
+      font-size: 20px;
+  } 
+  .html{
+    font-size: 9px;
+    text-align: center;
+    width: fit-content;
+  }
+  .css{
+    font-size: 9px;
+    text-align: left;
+    width: fit-content;
+  }
+  .js{
+    font-size: 8px;
+    text-align: center;
+    width: fit-content;
+  }
+  .python{
+    font-size: 8px;
+    text-align: center;
+    width: fit-content;
+  }
+  .sql{
+    font-size: 9px;
+    text-align: center;
+    width: fit-content;
+  }
+
+  /* .sidebar{
+      transform: translate(-443px, 0px);
+      position: absolute;
+  }  */
+}
